@@ -1,0 +1,26 @@
+# define which set of tools to use
+cellranger: "/home/groups/CEDAR/kongg/software/cellranger-8.0.0/cellranger"
+bamtofastq: "/home/groups/CEDAR/kongg/software/cellranger-8.0.0/lib/bin/bamtofastq"
+samtools: "/home/groups/CEDAR/kongg/software/cellranger-8.0.0/lib/bin/samtools"
+
+# define project information
+project_id: nSCLC
+chemistry: "SC5P-PE" # keep this a constant
+
+# define a genome reference
+reference: "/home/groups/CEDAR/kongg/references/refdata-gex-mm10-2020-A"
+
+# define your experiments and expected samples from each experiment
+experiment_sample: "config/experiment-sample.csv"
+
+# CellRanger configuration files per run/well/experiment
+multi:
+  # an individual sequencing run/well/experiment will go here. It's okay to have only one exp.
+    # config: provide a CellRanger-compatible csv file here
+    # cmo: provide a CellRanger-compatible csv file to specify CMO sequences here
+  nSCLC-5WK:
+    config: config/nSCLC-5WK.csv
+    cmo: config/nSCLC-5WK-CMO.csv
+  nSCLC-8WK:
+    config: config/nSCLC-8WK.csv
+    cmo: config/nSCLC-8WK-CMO.csv

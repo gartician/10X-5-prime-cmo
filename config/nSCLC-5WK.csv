@@ -1,0 +1,20 @@
+[gene-expression]
+reference,/home/exacloud/gscratch/NikolovaLab/genomes/refdata-gex-mm10-2020-A
+cmo-set,/home/exacloud/gscratch/NikolovaLab/kongg/burger1/multi/config/nSCLC-5WK-CMO.csv
+create-bam,true
+
+[libraries]
+fastq_id,fastqs,feature_types
+SCL240327MB_LD_47_GEX_Library,/home/exacloud/gscratch/NikolovaLab/data/scRNA-Seq/Unaligned_i10_10x/SCL240327MB,Gene Expression
+SCL240327MB_LD_48_Feature_Barcode_Lirbary,/home/exacloud/gscratch/NikolovaLab/data/scRNA-Seq/Unaligned_i10_10x/SCL240327MB,Multiplexing Capture
+
+[samples]
+sample_id,cmo_ids
+nAntigen-5WK_1,HTO1
+nAntigen-5WK_2,HTO2
+nAntigen-5WK_3,HTO3
+nAntigen-5WK_4,HTO4
+pAntigen-5WK_1,HTO5
+pAntigen-5WK_2,HTO6
+pAntigen-5WK_3,HTO7
+pAntigen-5WK_4,HTO8

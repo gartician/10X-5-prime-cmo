@@ -1,0 +1,14 @@
+{
+    "SC_RNA_COUNTER_CS.SC_MULTI_CORE.MULTI_GEM_WELL_PROCESSOR.COUNT_GEM_WELL_PROCESSOR._BASIC_SC_RNA_COUNTER._MATRIX_COMPUTER.ALIGN_AND_COUNT": {
+        "chunk.mem_gb": 32,
+        "chunk.threads": 8
+    },
+    "SC_ATAC_GEX_COUNTER_CS.SC_ATAC_GEX_COUNTER._GEX_MATRIX_COMPUTER.ALIGN_AND_COUNT": {
+        "chunk.mem_gb": 32,
+        "chunk.threads": 8
+    },
+    "SC_ATAC_GEX_COUNTER_CS.SC_ATAC_GEX_COUNTER._ATAC_MATRIX_COMPUTER.MARK_ATAC_DUPLICATES": {
+        "chunk.mem_gb": 16,
+        "chunk.threads": 4
+    }
+}
