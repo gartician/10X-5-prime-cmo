@@ -1,5 +1,7 @@
 # How to demultiplex 10X 5' scRNA-Seq data with CMOs
 
+![Static Badge](https://img.shields.io/badge/maintainer-Garth_Kong-green)
+
 This SnakeMake pipeline processes a special scenario of single-cell RNA-Seq (scRNA-Seq) data. In this situation, single cells are tagged with Cell Multiplexing Oligomers (CMO) on the cell surface followed by 5' gene expression characterization with a 10X chromium machine. 
 
 While the combination of 3' scRNA-Seq with CMO is officially supported by CellRanger, 5' scRNA-Seq with CMO requires a workaround to correctly demultiplex cells. The source of this process can be found [here](https://www.10xgenomics.com/analysis-guides/demultiplexing-and-analyzing-5%E2%80%99-immune-profiling-libraries-pooled-with-hashtags). 
